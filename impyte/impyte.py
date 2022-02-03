@@ -9,7 +9,7 @@ import warnings
 from collections import Counter
 from datetime import date
 from pathlib import Path
-from sklearn.externals import joblib
+import joblib
 from sklearn.ensemble import RandomForestRegressor, RandomForestClassifier, \
      GradientBoostingRegressor, GradientBoostingClassifier
 from sklearn.model_selection import cross_val_score
